@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/springboot?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    driver-class-name: com.mysql.jdbc.Driver
+  application:
+    name: user-service # 应用名称
+  jpa:
+    hibernate:
+      #更新或者创建数据库表
+      ddl-auto: update
+    #控制台显示SQL
+    show-sql: true
+eureka:
+  client:
+    service-url: # EurekaServer地址
+      defaultZone: http://127.0.0.1:8083/eureka
+  instance:
+    prefer-ip-address: true # 当调用getHostname获取实例的hostname时，返回ip而不是host名称
+    ip-address: 127.0.0.1 # 指定自己的ip信息，不指定的话会自己寻找
+#    lease-expiration-duration-in-seconds: 1 #服务失效时间，默认值90秒
+#    lease-renewal-interval-in-seconds: 1 #服务续约(renew)的间隔，默认为30秒 (即心跳时间)
+

@@ -1,0 +1,16 @@
+#YAMl方式改变访问端口
+#server:
+# port: 8090
+#person:
+# lastName: lucy
+#age: 20
+#boss: true
+#birth: 1997/02/17
+#maps: {address: 北京, weather: 晴}
+#list:
+# - damao
+#- ermao
+#- sanmao
+#dog:
+# name: dog
+#age: 2

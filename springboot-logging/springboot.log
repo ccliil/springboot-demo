@@ -1,0 +1,11 @@
+2019-08-01 === [main] === INFO  === com.cdtu.SpringBootLoggingApplicationTests ==== Starting SpringBootLoggingApplicationTests on LAPTOP-LO8J3MS3 with PID 8272 (started by 陈丽 in D:\ProjectOfIDE\springboot-logging)
+2019-08-01 === [main] === DEBUG === com.cdtu.SpringBootLoggingApplicationTests ==== Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-08-01 === [main] === INFO  === com.cdtu.SpringBootLoggingApplicationTests ==== No active profile set, falling back to default profiles: default
+2019-08-01 === [main] === INFO  === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-01 === [main] === INFO  === com.cdtu.SpringBootLoggingApplicationTests ==== Started SpringBootLoggingApplicationTests in 1.874 seconds (JVM running for 2.596)
+2019-08-01 === [main] === TRACE === com.cdtu.SpringBootLoggingApplicationTests ==== 这是trace日志
+2019-08-01 === [main] === DEBUG === com.cdtu.SpringBootLoggingApplicationTests ==== 这是debug日志
+2019-08-01 === [main] === INFO  === com.cdtu.SpringBootLoggingApplicationTests ==== 这个是info日志
+2019-08-01 === [main] === WARN  === com.cdtu.SpringBootLoggingApplicationTests ==== 这个是warn日志
+2019-08-01 === [main] === ERROR === com.cdtu.SpringBootLoggingApplicationTests ==== 这个是error日志
+2019-08-01 === [Thread-2] === INFO  === o.s.scheduling.concurrent.ThreadPoolTaskExecutor ==== Shutting down ExecutorService 'applicationTaskExecutor'

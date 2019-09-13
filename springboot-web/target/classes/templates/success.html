@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>welcome to here</title>
+</head>
+<body>
+<h2>success to here</h2>
+<div th:text="${hello}">这是显示欢迎信息</div>
+<hr/>
+<div th:text="${hello}">text会对内容进行转义，按原样输出</div>
+<div th:utext="${hello}">utext会对内容进行转义，会解析输出</div>
+<hr/>
+<h4 th:text="${user}" th:each="user:${users}"></h4><!--换行遍历方式-->
+<hr/>
+<h4>
+    <span th:each="user:${users}">[[${user}]]</span><!--行内式遍历集合：[[。。。]]:会对遍历的内容进行转义    [(。。。)]：不会对遍历内容进行转义-->
+</h4>
+</body>
+</html>

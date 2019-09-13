@@ -1,0 +1,6 @@
+# Initializers
+org.springframework.context.ApplicationContextInitializer=\
+com.cdtu.listener.HelloApplicationContextInitializer
+#RunListener
+org.springframework.boot.SpringApplicationRunListener=\
+  com.cdtu.listener.HelloSpringApplicationRunListener

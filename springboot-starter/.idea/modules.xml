@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cdtu-spring-boot-starter-autoconfigurer/cdtu-spring-boot-starter-autoconfigurer.iml" filepath="$PROJECT_DIR$/cdtu-spring-boot-starter-autoconfigurer/cdtu-spring-boot-starter-autoconfigurer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cdtu-spring-boot-starter/cdtuspringbootstarter.iml" filepath="$PROJECT_DIR$/cdtu-spring-boot-starter/cdtuspringbootstarter.iml" />
+    </modules>
+  </component>
+</project>
